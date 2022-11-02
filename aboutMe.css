@@ -21,10 +21,12 @@ body {
 
 a:active {
     color: #303030;
-    text-shadow: gray;
-    background-color: gray;
-    opacity: 0.6;
-    width: 80px;
+}
+
+a:hover {
+    background-color: #303030;
+    opacity: 50%;
+    width: 90px;
 }
 
 img {

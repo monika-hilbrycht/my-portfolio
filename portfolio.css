@@ -21,8 +21,95 @@ body {
 
 a:active {
     color: #303030;
-    text-shadow: gray;
-    background-color: gray;
-    opacity: 0.6;
-    width: 80px;
+}
+
+a:hover {
+    background-color: #303030;
+    opacity: 50%;
+    width: 90px;
+}
+
+.mainScroll {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 90%;
+    margin: 60px;
+}
+
+.cover {
+    position: relative;
+    width: 90%;
+    height: 50%;
+}
+
+.cover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(90deg, #f1f1f1, transparent);
+}
+
+.cover::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(-90deg, #f1f1f1, transparent);
+}
+
+.scrollImages {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child {
+    min-width: 600px;
+    max-width: 800px;
+    height: 450px;
+    margin: 1px 10px;
+    cursor: pointer;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .scrollImages:-webkit-scrollbar{
+    -webkit-animation-direction: normal;
+} */
+
+.child-img {
+    height: 100%;
+    width: auto;
+}
+
+.icon {
+    color: #303030;
+    background-color: #303030;
+    width: 30px;
+    height: 5px;
+    font-size: 50px;
+    outline: #303030;
+    border: #303030;
+    border-radius: 30px;
+    padding: opx 20px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: yellow;
 }
