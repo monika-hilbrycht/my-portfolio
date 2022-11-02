@@ -21,27 +21,8 @@ body {
 
 a:active {
     color: #303030;
+    text-shadow: gray;
+    background-color: gray;
+    opacity: 0.6;
+    width: 80px;
 }
-
-a:hover {
-    background-color: #303030;
-    opacity: 50%;
-    width: 90px;
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    font-size: 48px;
-}
-
-.photoContainer, img {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: 100px;
-    justify-content: center;
-    height: 400px;
-}
-
