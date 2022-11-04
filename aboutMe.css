@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: #f1f1f1;
+    line-height: 20px;
 }
 
 .linksContainer {
@@ -41,12 +42,72 @@ img {
 }
 
 p {
-    margin: 200px 50px auto 50px;
+    margin: 180px 50px auto 50px;
     line-height: 16pt;
     font-size: 16px;
 }
 
-.head {
-    font-size: 18px;
+.head, .comp, .education, .experience {
+    font-size: 20px;
+    line-height: 30px;
 }
+
+.competences{
+    min-height: auto;
+    max-width: auto;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 0px 50px 380px;
+}
+
+.list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    -moz-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-education {
+    position: relative;
+    top: 15px;
+}
+
+.education {
+    position: relative;
+    top: 5px;
+    line-height: 40px;
+}
+
+.edc {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    -moz-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp {
+    position: relative;
+    top: 30px;
+}
+
+.my-exp {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    column-gap: 10px;
+    -moz-column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
