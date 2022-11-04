@@ -1,0 +1,78 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.linksContainer {
+    margin-left: 0%;
+    background-color: #d9d9d9;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.homeL, .aboutMeL, .portfolioL, .contactL {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: #303030;
+}
+
+a:hover {
+    background-color: #303030;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    opacity: 50%;
+    width: 90px;
+    height: 60px;
+}
+
+.container {
+    display: flex;
+    width: 25vw;
+    height: 25vw;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 32vw;
+    top: 6vw;
+    border-radius: 15px;
+    box-shadow: 0px 5px 3px #c9c9c9;
+}
+
+.textContainer {
+    z-index: 1;
+    width: 25vw;
+    height: 25vw;
+    position: relative;
+    left: 37vw;
+    bottom: 13vw;
+    text-decoration: none
+}
+
+.a, .b, .c, .d, .e {
+    text-decoration: none;
+    color: #303030;
+}
+
+.message, .find {
+    line-height: 20px;
+}
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover {
+    background-color: azure;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.a::after, .b::after, .c::after, .d::after, .e::after {
+    color: grey;
+    text-decoration: none;
+}
